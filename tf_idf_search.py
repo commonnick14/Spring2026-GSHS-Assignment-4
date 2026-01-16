@@ -3,6 +3,7 @@ import math
 def tokenize(text: str) -> list[str]:
     return text.lower().split()
 
+
 def compute_tf(document: str) -> dict:
     tf = {}
     tokens = tokenize(document)
